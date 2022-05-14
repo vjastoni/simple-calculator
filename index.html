@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="calc-wrapper">
+        <form name="calculator">
+          <input id="display" type="text" placeholder="0" readonly />
+          <br />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('7')"
+            value="7"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('8')"
+            value="8"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('9')"
+            value="9"
+          />
+          <input
+            class="button operators"
+            type="button"
+            onclick="printNum('+')"
+            value="+"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('4')"
+            value="4"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('5')"
+            value="5"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('6')"
+            value="6"
+          />
+          <input
+            class="button operators"
+            type="button"
+            onclick="printNum('-')"
+            value="-"
+          />
+          <br />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('1')"
+            value="1"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('2')"
+            value="2"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('3')"
+            value="3"
+          />
+          <input
+            class="button operators"
+            type="button"
+            onclick="printNum('x')"
+            value="x"
+          />
+          <br />
+          <input
+            class="button clearButton"
+            type="button"
+            onclick="clearDisplay()"
+            value="C"
+          />
+          <input
+            class="button"
+            type="button"
+            onclick="printNum('0')"
+            value="0"
+          />
+          <input
+            class="button operators"
+            type="button"
+            onclick="compute()"
+            value="="
+          />
+          <input
+            class="button operators"
+            type="button"
+            onclick="printNum('/')"
+            value="/"
+          />
+          <br />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
